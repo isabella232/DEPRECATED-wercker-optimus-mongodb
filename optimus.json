@@ -14,7 +14,7 @@
   "supportDetect" : [
     { "files" : ["package.json"]}
   ],
-  "environmentVariables" : [{"WERCKER_MONGODB_PORT", "27017$$IPADDRESS$$"}],
+  "environmentVariables" : [{"WERCKER_MONGODB_PORT" : "27017$$IPADDRESS$$"}],
   "packageIgnore" : [],
   "priority" : 1000
 }
