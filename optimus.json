@@ -1,11 +1,15 @@
 {
-	"name" : "mongodb",
-	"version" : "0.0.1",
-	"stackInfo" :{},
-  "isPrivate" : false,
-  "mainDetect" : [],
-  "supportDetect" : [],
-  "environmentVariables" : [{"WERCKER_MONGODB_PORT" : "27017"}],
-  "packageIgnore" : [],
-  "priority" : 1000
+  "name": "mongodb",
+  "version": "0.0.1",
+  "stackInfo": {},
+  "isPrivate": false,
+  "mainDetect": [],
+  "supportDetect": [],
+  "environmentVariables": [
+    {
+      "WERCKER_MONGODB_PORT": "27017"
+    }
+  ],
+  "packageIgnore": [],
+  "priority": 1000
 }
